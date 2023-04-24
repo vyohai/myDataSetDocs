@@ -1,0 +1,111 @@
+myDataSet
+=========
+
+Introduction
+------------
+This repo is responsible for:
+
+* Presentation of the "GetUp-Dataset"
+* Pre-processing of the "GetUp-Dataset"
+* Analisys of the raw and the pre-processed data
+* creating diffrent flavours of datasets based on the main one( only young or only old etc.)
+* supply the chosen dataset for external processing code 
+
+GetUp-Dataset experiments
+-------------------------
+**Intro**
+The goal of the experiments was to enable research and development
+in the field of remote functional assesment, mainly for elders.
+
+**Protocol**
+In order to measure and analyze natural sit-stand-transitions, we asked the subjects to sit in a room with a chair and a table with 15 objects on It.
+Subjects were asked to stand up from the chair and move one object to a different place at their own time.
+They had 20 minutes for the task of moving all 15 elements.
+The experiment was videotaped using a GoPro camera.
+The movement of the subject was measured by two IMU sensors, one on the subject’s hand and one on the subject’s pelvis as depicted in figure 1.  
+The experiment was approved by an ethical review board and all participants signed a consent document.
+
+.. image:: C:/Users/User/Desktop/GITHUB-REPOS/myDataSet/Pictures/Picture1.jpg
+  :width: 400
+  :alt: Alternative text
+Fig.1 - Sensors placement.
+
+	
+**Hardware**
+To measure the subject movements, we used MMR modules from MBIENTLAB.  
+**The subjects**
+
+.. image:: C:/Users/User/Desktop/GITHUB-REPOS/myDataSet/Pictures/Picture2.png
+  :width: 400
+  :alt: Alternative text
+Fig.2 - Subjects table
+
+
+Tutorials and notebooks
+-----------------------
+in the /notebooks/ directory we have the following tutorials/notebooks:
+
+1. **Tutorial1_Reading_single_subject_data.ipynb**- show how to load preprocessed data with the repo code
+	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FTutorial1_Reading_single_subject_data.ipynb
+2. **Analisys of finding standing up to sitting down duraion**-***TBD*** summerize the attempts of finding the events(where the subject is not seated)
+	and a basic look at how do they look.
+	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FAnalisys%20of%20finding%20standing%20up%20to%20sitting%20down%20duration.ipynb
+	
+	
+API referance
+-------------
+***will be generated using docstrings and Sphinx, contain the 
+***interfaces
+Click [here](https://mydataset.readthedocs.io/en/latest/) to go to The documantation.
+
+
+Developer documantation
+-----------------------
+***will describe the design strategy and important detailes
+
+
+Leading questions
+-----------------
+**Basic experiments data**
+1. how many subjects
+2. how many evevnts(total and for each subject)
+3. TUG scores
+4. Camera frame-rate
+5. Camera based sit-to-stand times
+6. Sensors frame-rate
+7. Subjects ages
+		
+**Basic sensor analisys**
+1. Calculated features
+2. diffrent features metrices: max/min/peaks mean...
+		
+**Events basic analisys**
+1. How does an event looks on each feature
+2. Comperison of diffrent events for the same subject
+3. Comperison of diffrent events for diffrent subjects
+		
+**Events spectral analisys**
+1. Spectral analisys of one event
+2. Spectral analisys of not events
+3. Spectral analisys  comperison for diffrent events for the same subject
+4. Spectral analisys  comperison for diffrent events for diffrent subjects
+		
+**STFT analisys**
+1. can we make events in hand measurements more recognizble?
+	
+**Filtering**
+1. Basic filter noises
+2. Adaptive filtering
+3. Event based filters(such as ZUPT)
+		
+**Create new features**
+1. Can we use walking direction
+		
+		
+List of Abbreviations
+---------------------
+* TUG - Timed-Up-and-Go(Functional performance assessment test)
+* IMU - Inertial Measurment Unit(Accelerometer, Gyroscope and Magnetometer)
+	
+	
+
