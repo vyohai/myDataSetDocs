@@ -3,14 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GetUp Dataset's documentation!
+Welcome to myDataset documentation!
 =========================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.  It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
-
+**myDataset** is a Python library that deals with all the aspects of preprocesiing/saving/formating/filtering and analisys of the GetUp Dataset.
 .. note::
 
    This project is under active development.
