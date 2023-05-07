@@ -47,64 +47,85 @@ in the /notebooks/ directory we have the following tutorials/notebooks:
 
 1. **Tutorial1_Reading_single_subject_data.ipynb**- show how to load preprocessed data with the repo code
 	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FTutorial1_Reading_single_subject_data.ipynb
-2. **Analisys of finding standing up to sitting down duraion**-***TBD*** summerize the attempts of finding the events(where the subject is not seated)
-	and a basic look at how do they look.
-	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FAnalisys%20of%20finding%20standing%20up%20to%20sitting%20down%20duration.ipynb
+
+2. **Tutorial2_Analisys_of_walking_direction_by_hand_sensor.ipynb**(under construction) - summerize the analisys of a simple scenario 
+(getting up--> walking-->sitting down), maunly spectral analysis of the different phases.
+	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FTutorial2_Analisys_of_walking_direction_by_hand_sensor.ipynb	
 	
-	
-API referance
+Docomentation
 -------------
-***will be generated using docstrings and Sphinx, contain the 
-***interfaces
 Click [here](https://mydataset.readthedocs.io/en/latest/) to go to The documantation.
 
 
 Developer documantation
 -----------------------
-***will describe the design strategy and important detailes
+TBD
 
 
 Leading questions
 -----------------
 **Basic experiments data**
+
 1. how many subjects
+
 2. how many evevnts(total and for each subject)
+
 3. TUG scores
+
 4. Camera frame-rate
+
 5. Camera based sit-to-stand times
+
 6. Sensors frame-rate
+
 7. Subjects ages
 		
 **Basic sensor analisys**
+
 1. Calculated features
+
 2. diffrent features metrices: max/min/peaks mean...
 		
 **Events basic analisys**
+
 1. How does an event looks on each feature
+
 2. Comperison of diffrent events for the same subject
+
 3. Comperison of diffrent events for diffrent subjects
+
 		
 **Events spectral analisys**
+
 1. Spectral analisys of one event
+
 2. Spectral analisys of not events
+
 3. Spectral analisys  comperison for diffrent events for the same subject
+
 4. Spectral analisys  comperison for diffrent events for diffrent subjects
 		
 **STFT analisys**
+
 1. can we make events in hand measurements more recognizble?
 	
 **Filtering**
+
 1. Basic filter noises
+
 2. Adaptive filtering
+
 3. Event based filters(such as ZUPT)
 		
 **Create new features**
+
 1. Can we use walking direction
 		
 		
 List of Abbreviations
 ---------------------
 * TUG - Timed-Up-and-Go(Functional performance assessment test)
+
 * IMU - Inertial Measurment Unit(Accelerometer, Gyroscope and Magnetometer)
 	
 	
