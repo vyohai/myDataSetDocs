@@ -48,19 +48,10 @@ in the /notebooks/ directory we have the following tutorials/notebooks:
 1. **Tutorial1_Reading_single_subject_data.ipynb**- show how to load preprocessed data with the repo code
 	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FTutorial1_Reading_single_subject_data.ipynb
 
-2. **Tutorial2_Analisys_of_walking_direction_by_hand_sensor.ipynb**(under construction) - summerize the analisys of a simple scenario 
+2. **Tutorial2_Analisys_of_walking_direction_by_hand_sensor.ipynb** (under construction) - summerize the analisys of a simple scenario 
 (getting up--> walking-->sitting down), maunly spectral analysis of the different phases.
 	https://app.reviewnb.com/vyohai/myDataSet/blob/main/notebooks%2FTutorial2_Analisys_of_walking_direction_by_hand_sensor.ipynb	
 	
-Docomentation
--------------
-Click [here](https://mydataset.readthedocs.io/en/latest/) to go to The documantation.
-
-
-Developer documantation
------------------------
-TBD
-
 
 Leading questions
 -----------------
